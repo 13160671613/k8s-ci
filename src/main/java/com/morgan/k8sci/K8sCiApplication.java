@@ -13,7 +13,7 @@ public class K8sCiApplication {
         SpringApplication.run(K8sCiApplication.class, args);
     }
 
-    @GetMapping("/k8s")
+    @GetMapping("/k8s1")
     public String k8s(){
         return "k8s";
     }
