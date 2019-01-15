@@ -20,7 +20,7 @@ public class K8sCiApplication {
 
     @GetMapping(value = "/hello")
     public String hello() {
-        return "hello1";
+        return "hello";
     }
 }
 
