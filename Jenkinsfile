@@ -1,9 +1,6 @@
 node('jnlp') {
-   stage('git'){
-       sh 'git version'
-   }
    stage('maven'){
-       sh 'mvn -v'
+       sh 'mvn clean package dockerfile:build'
    }
    stage('jdk'){
        sh 'java -version'
