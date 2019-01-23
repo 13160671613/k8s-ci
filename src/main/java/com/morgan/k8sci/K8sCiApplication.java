@@ -15,7 +15,7 @@ public class K8sCiApplication {
 
     @GetMapping("/k8s")
     public String k8s(){
-        return "k8s";
+        return "k8s1";
     }
 
     @GetMapping(value = "/hello")
