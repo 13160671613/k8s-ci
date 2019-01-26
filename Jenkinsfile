@@ -1,5 +1,6 @@
 node('jnlp') {
    stage('maven'){
+       sh 'll'
        sh 'mvn clean package dockerfile:build'
    }
    stage('jdk'){
